@@ -19,7 +19,7 @@ A Model Context Protocol (MCP) server that provides access to Oracle Cloud Infra
 ### 1. Installation
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/GoCoder7/oci-mcp-server.git
 cd oci-mcp-server
 npm install
 ```
