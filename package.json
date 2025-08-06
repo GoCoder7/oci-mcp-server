@@ -1,0 +1,29 @@
+{
+  "name": "oci-mcp-server",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Oracle Cloud Infrastructure (OCI) MCP Server for comprehensive cloud resource management",
+  "main": "dist/simple-index.js",
+  "scripts": {
+    "build": "npx tsc src/simple-index.ts --outDir dist --target ES2020 --module ES2020 --moduleResolution node --allowSyntheticDefaultImports --esModuleInterop --skipLibCheck",
+    "dev": "ts-node src/simple-index.ts",
+    "watch": "nodemon --exec ts-node src/simple-index.ts",
+    "start": "node dist/simple-index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["mcp", "oracle", "cloud", "infrastructure", "oci"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.1",
+    "@types/node": "^24.2.0",
+    "axios": "^1.11.0",
+    "nodemon": "^3.1.10",
+    "oci-sdk": "^2.114.1",
+    "ts-node": "^10.9.2",
+    "zod": "^3.25.76"
+  }
+}

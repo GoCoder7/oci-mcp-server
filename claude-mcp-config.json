@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "oci-mcp-server": {
+      "command": "node",
+      "args": ["./dist/simple-index.js"],
+      "cwd": "/Volumes/HDD-1T-2021-Mac/Vault/business/project/mine/oci-mcp-server",
+      "env": {
+        "OCI_TENANCY_ID": "your-tenancy-id-here",
+        "OCI_USER_ID": "your-user-id-here",
+        "OCI_KEY_FINGERPRINT": "your-key-fingerprint-here",
+        "OCI_PRIVATE_KEY_PATH": "/path/to/your/oci_api_key.pem",
+        "OCI_REGION": "us-ashburn-1",
+        "OCI_COMPARTMENT_ID": "your-compartment-id-here"
+      }
+    }
+  }
+}

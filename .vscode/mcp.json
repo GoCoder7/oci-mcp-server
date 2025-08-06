@@ -1,0 +1,14 @@
+{
+  "oci-mcp-server": {
+    "command": "node",
+    "args": ["dist/simple-index.js"],
+    "env": {
+      "OCI_TENANCY_ID": "${env:OCI_TENANCY_ID}",
+      "OCI_USER_ID": "${env:OCI_USER_ID}",
+      "OCI_KEY_FINGERPRINT": "${env:OCI_KEY_FINGERPRINT}",
+      "OCI_PRIVATE_KEY_PATH": "${env:OCI_PRIVATE_KEY_PATH}",
+      "OCI_REGION": "${env:OCI_REGION}",
+      "OCI_COMPARTMENT_ID": "${env:OCI_COMPARTMENT_ID}"
+    }
+  }
+}
