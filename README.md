@@ -2,6 +2,10 @@
 
 A Model Context Protocol (MCP) server that provides access to Oracle Cloud Infrastructure services through a unified interface, optimized for VS Code integration.
 
+<a href="https://glama.ai/mcp/servers/@GoCoder7/oci-mcp-server">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@GoCoder7/oci-mcp-server/badge" alt="OCI Server MCP server" />
+</a>
+
 ## Features
 
 ### 🚀 Unified OCI Management Tool
